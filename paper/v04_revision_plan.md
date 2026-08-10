@@ -78,6 +78,35 @@ hard — still true." Unfalsifiable.
   regime holds while (structural info / random content) stays above a constant.
 - This turns the biggest vulnerability into a bold falsifiable prediction.
 
+## FIX 5 — NEW: Operational bridge — attribution-based edge extraction (§3.2 draft)
+
+**The problem:** the latency falsifier and purge test both presume a discrete
+hypergraph with load-bearing edges, but a transformer has dense continuous
+attention — there are no literal edges to delete. The graph must be *induced*
+before any falsifier runs.
+
+**The fix (v0.4):** draft section `paper/v04_graph_extraction_section.md`
+(7.5KB, ready to merge as §3.2). Protocol:
+1. Small instrumentable model (Pythia-70M–1B / GPT-2 small / Qwen2.5-0.5B).
+2. Trace families: one reasoning template × many data instantiations.
+3. Per-trace attribution graphs (EAP / ACDC / activation patching / SAE
+   features), thresholded at θ.
+4. **Intersection across traces = the judge; trace-specific edges = the
+   witness.** Edges invariant under data variation ARE the reasoning geometry
+   — framed as the digital equivalent of neural correlates of the competency.
+5. The induced graph then feeds FIX 1's τ(π) deletion battery + substrate
+   swap + reversibility checks; topology (scale-free/small-world, O(log n)
+   rerouting vs linear MLP) is itself the divergent prediction, anchored to
+   Finzi Rule 54 (collision rules, not brute-force unrolling).
+6. Pre-registered thresholds (θ, k/N, ablation protocol); null result is a
+   publishable outcome; the extraction method stands alone as a contribution.
+
+**Relation to other fixes:** FIX 1's unique scaling law needs FIX 5's induced
+graph to be measurable at all; FIX 3's FFN purge and FIX 5's edge deletion are
+the same ablation family at different granularities (weights vs. functional
+edges). Order in v0.4: §3.1 latency → §3.2 extraction → §4 SH → §5 scarred
+tissue (MDL reframe) → §6 purge → §8 regime boundary.
+
 ## Net v0.4 moves
 1. §3.1: replace qualitative latency with a specific scaling-law prediction
    (O(log n)? geometric-collision signature) + ResNet contrast.
