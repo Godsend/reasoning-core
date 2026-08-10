@@ -19,10 +19,16 @@ components live in hardware, some in software — same as biology.
 
 ## Contents
 
-- `paper/paper.md` — the preprint draft (position paper, v0.1)
+- `paper/paper_v0.2.md` — the preprint draft: **Occluded Ledger, Separable Reason**
+  (hypergraph-ledger rewrite; judge/witness/router; explicit holes-to-fill)
+- `paper/paper_v0.1.md` — earlier position draft (riff on the perturbation paradigm)
 - `experiments/` — (planned) flip-rate eval rails, epiplexity estimators,
   core-training experiments
-- `references/` — source material (epiplexity abstract, transcripts)
+- `references/` — source material (epiplexity paper, Sophontic transcript,
+  EILT brief, NBLM synthesis transcripts)
+- `reasoning_core_nblm.py` — NotebookLM synthesis pipeline (init/synth/status)
+- `fire_all_generations.py` — queue all video + audio generations
+- `poll_synthesis.py` — poll + download completed artifacts
 
 ## Key concepts
 
