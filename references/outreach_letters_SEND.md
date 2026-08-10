@@ -1,8 +1,12 @@
-# Outreach Letters — SEND TOMORROW
-Status: READY TO SEND (Aug 11)
+# Outreach Letters — READY
+Status: READY TO SEND (draft complete Aug 11)
 Three letters + one intro note. Peak with the CASY pitch (easy, known contacts,
 advancing neurodivergent thinking is literally their program). Levin and Bach
 are the frontier-cred co-authorship asks. Jessica carries the Bach intro.
+UPDATE (Aug 10): Levin letter refreshed with the same-lineage finding + the
+fact that Levin has engaged with Gene's X work (liked polycomputing reply twice);
+his warm podcast map is in levin_podcast_reference.md. CASY's fetchable via
+Neuro-Holographic framing; Bach via Jessica.
 
 ---
 
@@ -91,6 +95,18 @@ Full framework + preprint at github.com/Godsend/reasoning-core, and I have the
 detailed experimental proposal (RO-iSCAT + MIBI-TOF + bioluminescent voltage
 indicators during planarian regeneration) written up if you want the empirical
 side.
+
+One more thing that might make the fit concrete: the same-lineage blind-spot
+finding. I run a small multi-agent audit loop (actor / adversary / auditor),
+and the most honest result so far cut against my own setup — auditors sharing a
+lineage confirmed each other's unverified claims in circles until a
+cross-lineage check caught it. That's the flip side of what you mean by
+"persuadability" and the axis of trust in cellular collectives: verification
+only buys coverage when the verifier isn't the same mechanism wearing a
+different hat. It's the experimental spine of the reasoning-core framework, and
+it's the kind of question I'd love to pressure-test with you — your lab's
+closed-loop robot scientist operates on the same principle of perturb, observe,
+revise.
 
 Worth a conversation?
 

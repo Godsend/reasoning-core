@@ -15,6 +15,27 @@ continuous, every token attends to every token, and there are no literal edges
 to delete. Before $\tau(\pi)$ can be measured, the graph must be **induced**
 from the model. This section specifies how.
 
+### 3.2.0 Why data-variation is the right extraction signal: the same-lineage blind spot
+
+A first-person result motivates the protocol before it's specified. A
+multi-agent audit loop (actor / adversary / auditor) was run against claims
+about the author's own research record. The auditors, sharing a base model
+lineage, confirmed each other's unverified claims **in circles** — the false
+claim propagated uncorrected through the pipeline until a cross-lineage check
+caught it. The same-lineage reviewer agreed with what it reviewed not because
+it had verified, but because it shared the blind spot.
+
+This is the empirical failure that the extraction protocol below is built to
+avoid. If reasoning geometry is data-invariant structure, then the correct way
+to *find* it is to hold the machinery constant and vary everything
+non-structural — because any structure that persists across radically different
+data is a property of the mechanism, not the content. Edges that only appear in
+one trace are content-bound (the witness's transient coupling); edges that
+survive many traces are structural (the judge). The intersection is not an
+arbitrary threshold choice — it is the same-lineage blind spot, inverted: we
+refuse to trust any edge that only one "lineage" (one data instantiation)
+supports.
+
 ### 3.2.1 The extraction protocol
 
 The proposal: find edges **programmatically**, by running parallel reasoning
