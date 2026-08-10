@@ -43,14 +43,14 @@ async def main():
             # status: 3=COMPLETED, 4=FAILED
             if stt in (3, "completed", "COMPLETED"):
                 print(f"COMPLETED {sid} url={url}")
-                # try to download
-                if url:
-                    import urllib.request
-                    out = REFS / f"synthesis_overview_{sid[:8]}.mp3"
-                    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-                    with urllib.request.urlopen(req, timeout=120) as r, open(out, "wb") as f:
-                        f.write(r.read())
-                    print(f"DOWNLOADED {out} ({out.stat().st_size} bytes)")
+                # Download via the client's auth-aware method (NOT urllib:
+                # raw Google storage URLs wall to sign-in for naive clients).
+                out = REFS / f"synthesis_overview_{sid[:8]}.m4a"
+                try:
+                    saved = await client.artifacts.download_audio(nid, str(out), sid)
+                    print(f"DOWNLOADED {saved} ({Path(saved).stat().st_size} bytes)")
+                except Exception as e:
+                    print(f"DOWNLOAD ERROR {type(e).__name__}: {str(e)[:200]}")
                 await client.close(); return 0
             if stt in (4, "failed", "FAILED"):
                 print(f"FAILED {sid}")
