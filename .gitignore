@@ -9,10 +9,13 @@ venv/
 # NotebookLM state (contains a notebook id, not sensitive, but project-local)
 references/nblm_notebook_state.json
 
-# Large generated media artifacts (audio overviews) — not committed to git;
-# reproduce via reasoning_core_nblm.py synth + poll_synthesis.py
+# Large generated media artifacts (audio/video overviews) — not committed to git;
+# reproduce via reasoning_core_nblm.py synth + poll_artifacts.py
 references/*.m4a
 references/*.mp3
+references/artifacts/*.m4a
+references/artifacts/*.mp3
+references/artifacts/*.mp4
 
 # OS
 .DS_Store
