@@ -140,6 +140,10 @@ async def cmd_synth():
                       "architecture. Focus on what unifies them and what testable "
                       "predictions follow."),
     )
+    tid = getattr(a, "task_id", None) or (a.get("task_id") if isinstance(a, dict) else None)
+    st = load_state()
+    st["task_id"] = tid
+    save_state(st)
     print(f"[SYNTH] audio queued: {a}")
     await client.close()
 
