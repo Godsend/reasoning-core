@@ -91,6 +91,15 @@ to be read. I'm an independent researcher with no institutional affiliation;
 you'd bring the q-bio credibility, I'd bring the framework and the epiplexity
 grounding.
 
+Also — I recognize the protocol. Your interview feed reads like a lab notebook
+made public: near-daily working sessions where the current formulation of
+Platonic space, memory-as-agent, and polycomputing gets bounced against a new
+interlocutor and whatever survives is kept. That's the same game I run with my
+channel and my own multi-agent loop — externalized iteration, ideas that get
+shaped by being aired. So I'm not sending a paper for validation; I'm sending
+an idea worth bouncing. If it's wrong, it's wrong in an interesting,
+testable way.
+
 Full framework + preprint at github.com/Godsend/reasoning-core, and I have the
 detailed experimental proposal (RO-iSCAT + MIBI-TOF + bioluminescent voltage
 indicators during planarian regeneration) written up if you want the empirical
