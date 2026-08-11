@@ -1,0 +1,165 @@
+{
+  "name": "Epiplexity and the Judge/Witness Split",
+  "children": [
+    {
+      "name": "Core Theory: Epiplexity",
+      "children": [
+        {
+          "name": "Structural information for bounded observers"
+        },
+        {
+          "name": "Learnable content vs. entropic noise"
+        },
+        {
+          "name": "Time-bounded MDL measure"
+        },
+        {
+          "name": "Computational capacity constraints"
+        }
+      ]
+    },
+    {
+      "name": "Persistence-Closure Hypergraph",
+      "children": [
+        {
+          "name": "Relational hypergraph substrate"
+        },
+        {
+          "name": "Causal-invariant rewrite rules"
+        },
+        {
+          "name": "Markov blanket occlusion"
+        },
+        {
+          "name": "Observer-relative ledger topology"
+        }
+      ]
+    },
+    {
+      "name": "The Separation Hypothesis (SH)",
+      "children": [
+        {
+          "name": "The Judge",
+          "children": [
+            {
+              "name": "Structural reasoning geometry"
+            },
+            {
+              "name": "Data-invariant functional substrate"
+            },
+            {
+              "name": "Coherence gate / BS detector"
+            }
+          ]
+        },
+        {
+          "name": "The Witness",
+          "children": [
+            {
+              "name": "Transient content store"
+            },
+            {
+              "name": "High-entropy episodic data"
+            },
+            {
+              "name": "Swappable context window"
+            }
+          ]
+        },
+        {
+          "name": "Inference-time independence"
+        },
+        {
+          "name": "Scarred Tissue Objection"
+        }
+      ]
+    },
+    {
+      "name": "Reasoning as Path Existence",
+      "children": [
+        {
+          "name": "Edge rewiring perturbations"
+        },
+        {
+          "name": "Flip-rate survival criterion"
+        },
+        {
+          "name": "Minimal load-bearing perturbation sets"
+        },
+        {
+          "name": "Path recomputation cost"
+        }
+      ]
+    },
+    {
+      "name": "Testable Falsifiers",
+      "children": [
+        {
+          "name": "Latency Falsifier",
+          "children": [
+            {
+              "name": "Rerouting cost function"
+            },
+            {
+              "name": "Geometry-scaling signatures"
+            },
+            {
+              "name": "Camera-independent verification"
+            }
+          ]
+        },
+        {
+          "name": "Epiplexity-after-Purge",
+          "children": [
+            {
+              "name": "Weight-epiplexity stability"
+            },
+            {
+              "name": "Episodic entropy spikes"
+            },
+            {
+              "name": "Amnesia-test operationalization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Operational Protocol (v0.4)",
+      "children": [
+        {
+          "name": "Attribution-based edge extraction"
+        },
+        {
+          "name": "Data-variation trace families"
+        },
+        {
+          "name": "Edge Attribution Patching (EAP)"
+        },
+        {
+          "name": "Invariant subgraph intersection"
+        },
+        {
+          "name": "Scale-free/Small-world topology"
+        }
+      ]
+    },
+    {
+      "name": "Multi-Domain Applications",
+      "children": [
+        {
+          "name": "Thermodynamic Epiplexity (bits-per-joule)"
+        },
+        {
+          "name": "Financial learnability (P-Q wedge)"
+        },
+        {
+          "name": "Speculative design self-assessment"
+        },
+        {
+          "name": "OOD generalization via factor-order"
+        }
+      ]
+    }
+  ]
+}
