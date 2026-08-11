@@ -149,6 +149,8 @@ An unquantified regime concession is a get-out-of-jail card: a critic ablates, t
 
 This is falsifiable: run the ablation battery at increasing perturbation complexity and locate the transition. If there is no transition — if degradation is smoothly proportional throughout — the regime framing is wrong and we will say so.
 
+**Independence requirement (added 2026-08-11, from the adversarial critique pass).** The bound above must not be measured with the same instrument that extracts the judge — that is circular. The judge's description length is to be estimated from its *transfer* behavior (how much the extracted subgraph compresses held-out generalization via an MDL bound), *not* from the EAP graph's own edge count. If the boundary is read off the extraction tool's output, then a failed test can always be attributed to a mis-measured boundary, and the strong form is unfalsifiable in practice. We therefore pre-register that the regime boundary uses an independence-of-instrument bound: the judge's size is measured by what it does on unseen data, never by how many edges its own graph shows.
+
 ---
 
 ## 6. Falsifiers
