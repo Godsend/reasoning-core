@@ -172,6 +172,8 @@ Depth is internal, per-input, hardware-independent, and — critically — defin
 
 A second, coarser instrument for chain-of-thought settings: the number of reasoning tokens emitted before the answer stabilizes.
 
+Recent work shows these reasoning traces are themselves separable, transferable assets: Panfilov et al. recovered hidden chain-of-thought verbatim by replaying a strong model's encrypted reasoning block through a weaker sibling (arXiv:2608.09867) — evidence that reasoning trajectory structure is a portable, distillable object, not a fixed property of one model's weights. That is the same separability the protocol here attempts to isolate at the circuit level, and it corroborates treating reasoning tokens as a coarse observable of the judge rather than of the witness.
+
 **Prediction.** $\Delta\delta$ under ablation of judge edges is positive and scales with the ablated edge's position in $G$ — betweenness centrality, edge connectivity, reroute frontier depth. $\Delta\delta$ under ablation of matched control edges (low betweenness, high redundancy, same layer, same head count) is approximately flat.
 
 **Controls.**
@@ -273,3 +275,4 @@ The extraction method is a contribution independent of whether SH survives. A cl
 14. Doshi, S., et al. "How regularization shapes the memorization-to-generalization transition: weight decay, dropout, and BatchNorm." (2023).
 15. Duan, Z., et al. "Circular Reasoning: Understanding Self-Reinforcing Loops in Large Reasoning Models." arXiv:2601.05693 (2026).
 16. Pipis, C., et al. "Wait, Wait, Wait... Why Do Reasoning Models Loop?" arXiv:2512.12895 (2025).
+17. Panfilov, A., Schmotz, D., Shumailov, I., Beurer-Kellner, L., Schaeffer, J., Prabhu, A., Geiping, J., Andriushchenko, M. "Stealing Reasoning Traces from Proprietary LLM APIs." arXiv:2608.09867 (2026).
