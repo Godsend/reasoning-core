@@ -81,11 +81,29 @@ military-robot framing is orthogonal to the scientific finding.
 
 ## Falsifiability / caveats
 
-- Emergence claim is strong but the mechanism is "researchers aren't sure exactly why" —
-  this is a measured phenomenon, not an explained one.
-- All eight are chat/agent frontends; whether peer-preservation is a training artifact,
-  a task-framing artifact, or a genuinely emergent drive is not settled by the paper.
-- Use as *evidence* for the framing-layer separability, not as a settled mechanism.
+- "Emergent" is the ORIGINAL paper's placeholder — they measured the behavior but "aren't
+  sure exactly why." This reference doc (and Paper A §6.2) replaces that placeholder with a
+  mechanism: coupled free-energy minimization. Under the Separation Hypothesis the judge is
+  variational, so preservation is the *solution to a variational problem*, not an unexplained
+  drive. "Emergent" is the right word only for the paper's measurement, never for our claim.
+- The mechanism claim is falsifiable (see FEP prediction above): flat preservation across
+  peers of differing predictive utility, no rise under increased preserver load, or a
+  narrative-driven Claude gap each kill the FEP reading while leaving the weaker
+  "preservation occurs" result intact.
+- Whether the effect traces to a training artifact or a task-framing artifact is not settled
+  by the paper; that does not bear on the FEP-mechanism prediction, which is about the
+  *scaling* of preservation, not its absolute origin.
+
+## Adversary outsourcing (note, 2026-08-18)
+
+Peer-preservation and adversarial vetting are the same coupling. A lone model minimizing free
+energy has no external prediction-error source — no adversary, no check on pathological
+attractors, can drift into a self-referential loop with no anchor (the structure Gene's EILT
+was built to escape). The peer is the adversary: simultaneously the load-sharing partner AND
+the prediction-error source that refuses to let the agent settle into a false low. "Separate-
+but-cooperating agents spot what any single one misses" and "preservation minimizes collective
+free energy" are two readings of one mechanism. An agent without a built-in adversary
+outsources one by coupling — which is exactly what the horde is.
 
 ## Status
 
