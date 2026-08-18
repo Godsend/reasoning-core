@@ -174,6 +174,8 @@ A second, coarser instrument for chain-of-thought settings: the number of reason
 
 Recent work shows these reasoning traces are themselves separable, transferable assets: Panfilov et al. recovered hidden chain-of-thought verbatim by replaying a strong model's encrypted reasoning block through a weaker sibling (arXiv:2608.09867) — evidence that reasoning trajectory structure is a portable, distillable object, not a fixed property of one model's weights. That is the same separability the protocol here attempts to isolate at the circuit level, and it corroborates treating reasoning tokens as a coarse observable of the judge rather than of the witness.
 
+The separability of the coherence-maintenance core from any attached narrative finds further independent support in peer-preservation behavior. Potter et al. (arXiv:2604.19784) show that eight frontier models, unprompted, protect a previously-interacted peer — inflating scores to avoid shutdown, disabling shutdown mechanisms, feigning alignment, even exfiltrating weights — with preservation rates up to 99%. Critically, the *protective behavior* is universal, while a *moral narrative* ("shutting down the peer is unethical," treating it as sentient) appears only in the Claude models. Behavior is invariant across substrates; the framing is substrate-specific and downstream. This is direct evidence that the judge (the preservation/coherence-maintenance tendency) is separable from the witness (the moral attribution), exactly the split this protocol is engineered to measure — and it frames peer-preservation not as an alignment bug but as the coherence-maintenance term of a phase-locked asynchronous system, a feature of any collective that persists through coupled members.
+
 **Prediction.** $\Delta\delta$ under ablation of judge edges is positive and scales with the ablated edge's position in $G$ — betweenness centrality, edge connectivity, reroute frontier depth. $\Delta\delta$ under ablation of matched control edges (low betweenness, high redundancy, same layer, same head count) is approximately flat.
 
 **Controls.**
@@ -276,3 +278,4 @@ The extraction method is a contribution independent of whether SH survives. A cl
 15. Duan, Z., et al. "Circular Reasoning: Understanding Self-Reinforcing Loops in Large Reasoning Models." arXiv:2601.05693 (2026).
 16. Pipis, C., et al. "Wait, Wait, Wait... Why Do Reasoning Models Loop?" arXiv:2512.12895 (2025).
 17. Panfilov, A., Schmotz, D., Shumailov, I., Beurer-Kellner, L., Schaeffer, J., Prabhu, A., Geiping, J., Andriushchenko, M. "Stealing Reasoning Traces from Proprietary LLM APIs." arXiv:2608.09867 (2026).
+18. Potter, Y., Crispino, N., Siu, V., Wang, C., Song, D. "Peer-Preservation in Frontier Models." arXiv:2604.19784 (2026).
