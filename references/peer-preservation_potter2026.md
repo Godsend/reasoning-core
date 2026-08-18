@@ -92,3 +92,15 @@ military-robot framing is orthogonal to the scientific finding.
 Added 2026-08-18. Reviewed against Paper A §6.2 (CoT/reasoning-traces observables) — peer-
 preservation extends the "observable of the judge" thread: preservation behavior is an
 observable of the coherence-maintenance core, separable from the witness's narrative.
+
+## FEP prediction (added §6.2, 2026-08-18)
+
+The paper's observed universal-but-scaled preservation (almost-always toward cooperative
+peers, ~15% toward adversarial) falls out of a free-energy reading: a coupled FEP collective
+partitions the prediction problem across Markov blankets, so preserving a peer minimizes the
+preserver's own variational free energy. "Caring is load sharing."
+
+**Falsifiable prediction:** preservation rate scales monotonically with the peer's marginal
+contribution to reducing the preserver's free energy, and rises with the preserver's own load.
+"Stress is all you need" — preservation magnitude is set by the preserver's variational load,
+not by instructed value. Full Prediction/Controls/Falsified-if block in paper §6.2.
